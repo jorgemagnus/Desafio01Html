@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO DE PROJETO 01 - Dio</title>
+</head>
+<body>
+    <hr />
+    <h1>PRIMEIROS PASSOS NO DESENVOLVIMENTO WEB - HTML<sup>*</sup></h1>
+    <hr />
+    <h2 id="inicio">Índice</h2>
+    <p>
+        <ol>
+            <li><a href="#historia-internet"><stron>H</stron>istoria da Internet.</a></li>
+            <li><a href="#entenda-tecnologias"><stron>E</stron>ntenda as tecnologias por trás da internet.</a></li>
+            <li><a href="#html"><stron>O</stron> que é HTML?</a></li>
+            <li><a href="#comandos-basicos"><stron>C</stron>omandos Básicos HTML.</a></li>            
+        </ol>
+    </p>
+
+    <hr/>
+    <h2 id="historia-internet">1. HISTÓRIA DA INTERNET</h2>
+    <hr/>
+    <small><a href="#inicio" title="Retorna ao Índice">voltar</a></small>
+    <p>
+    <h3>Primeiros Computadores:</h3> 
+        <ul>
+            <li>1 geração - Harvard Mark 1 -> 1944
+                Colossus -> 1946 Criado na alemanha.
+                Eniac -> 1946 Estados Unidos.(Época que surgil o termo bug (insetos))</li>
+            <li>2 geração  - de 1959 a 1965 - época do transitores.</li>
+            <li>3 geração  - Circuito integrado </li>
+            <li>4 geração  - a parti de 1971 aparecimento do computador pessoal, surgimento do mouse e demais tecnologias.</li>
+            <li>5 geração  - computadores quanticos , IA... </li>
+        </ul>
+    <h3>Como surgiu a internet:</h3>
+    <hr/>
+        <p>
+                A internet surgiu a partir de pesquisas militares no auge da Guerra Fria.
+            Neste contexto, em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, 
+            qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela União Soviética e pelos Estados Unidos: 
+            as duas superpotências compreendiam a eficácia e a necessidade absoluta dos meios de comunicação. Nessa perspectiva, 
+            o governo dos Estados Unidos temia um ataque russo às bases militares. Um ataque poderia trazer a público informações sigilosas, 
+            tornando os EUA vulneráveis. Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas.
+            Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. Era preciso, portanto, criar uma rede, a ARPANET, criada pela ARPA,
+            sigla para Advanced Research Projects Agency. <i>Em 1962, J. C. R. Licklider</i><sup>*</sup>, do Instituto Tecnológico de Massachusetts (MIT), 
+            já falava em termos da criação de uma Rede Intergaláctica de Computadores (Intergalactic Computer Network, em inglês).
+            A Internet também teve outros importantes atores que influenciaram o seu surgimento,
+            dentre eles: professores universitários (como Ken King), estudantes (como Vint Cerf), empresas de tecnologia (como a IBM) e 
+            alguns políticos norte-americanos (como Al Gore); caindo-se, portanto, a tese que vigorava anteriormente que enfatizava somente a 
+            vertente militar da sua criação.
+            <p><strong>fonte:<a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_da_Internet" title="Aproveite para saber mais..." target="_blank"><i>wikipedia</i></a></strong></p>
+            
+        </p> 
+
+            <h4 >Curiosidade:</h4>
+            <p>
+                Primeira página web em 6/08/1961, para ver, entrar no <a href="http://info.cern.ch/" title="Primeira página criada na Web" target="_blank">http://info.cern.ch/</a> 
+            </p>
+    <h3>Grandes Nomes:</h3>
+        <p>	
+            <ul>
+                <li>
+                Grace Murray Hopper - Primeira Programadora 1944, marinha, criadora da linguagem de alto nivel Flow-Matic(Base do cobol), 
+                Trouxe para o termo Bug na computação.
+                </li>
+                <li>Joseph Cal Robnett Licklider<sup>*</sup> - Plantou a semente da comunicação entre dois pontos distintos através do computador.</li>
+                <li>Robert E. Kahn - Um dos criadors do TCP/IP</li>
+                <li>Tim Berners lee  inventor da WWw, popularizou o HTTP e HTML. <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">"Inclusive a primeira página www foi feita por ele."</a></li>                
+                <li>Marc Andreesen - Reinventou o navegador web -> Netscape.</li>
+                <li>Bill Gates - Fundador da Microsoft - Internet Explorer.</li>
+                <li>Steve Jobs - Fundador da Apple  - criador do smartfone como conhecemos e usamos atualmente.</li>
+            </ul>
+        </p>	
+    </p>
+
+    <hr/>
+    <h2 id="entenda-tecnologias">2. ENTENDA AS TECNOLOGIAS POR TRÁS DA INTERNET.</h2>
+    <hr/>
+    <small><a href="#inicio" title="Retorna ao Índice">voltar</a></small>
+    <p>
+                    Com o desenvolvimento da comunicação entre computadores por rede local, foi necessário expandir esse alcance para a facilitar a ligação de contatos entre pessoas numa escala mais massiva. 
+            Isso começou em 1974, quando os norte-americanos Robert Kahn e Vinton Cerf criaram os protocolos IP (Internet Protocol) e TCP (Transfer Control Protocol). 
+            Esses dois protocolos de rede formaram a base da estrutura de comunicação da internet através do envio e recebimento de pacotes de dados e de informações. É assim que a internet funciona até os dias de hoje. 
+            Nos anos seguintes, a patente de criação desses protocolos passou a ser pública. Assim, mais centros de pesquisa, acadêmicos, laboratórios de engenharia aeroespacial, desenvolvedores e programadores tiveram amplo acesso essa nova forma de comunicação sem fronteiras.
+            Entre todos esses cientistas estava o britânico Tim Berners-Lee, que deu origem, em 1990, ao projeto WWW (World Wide Web). 
+            O conceito aplicado da WWW era ser uma teia gigantesca de informações entrelaçadas por links em textos acessados pelo usuário de qualquer local conectado a um servidor de rede virtual.
+            Esses acessos eram feitos através do primeiro navegador da internet, o WWW, o mesmo nome da teia gigantesca e também uma criação de Tim Berners-Lee. Anos mais tarde, este navegador foi renomeado para Nexus para evitar confusões.
+            <p><strong>fonte:<a href="https://www.hostinger.com.br/tutoriais/a-historia-da-internet#A_Criacao_da_Internet_Com_os_Protocolos_IPTCP_e_o_WWW" title="Aproveite para saber mais..." target="_blank"><i>Hostinger Tutoriais</i></a></strong></p> 
+    </p>    
+         
+         <h3>Caminhos da informação na internet:</h3>
+            <ul>
+                <li>Cliente(notebook, pc, celular..) solicita -> internet(protocolo http) -> Servidores(onde o site está hospedado).</li>
+                <li>cliente(notebook, pc, celular...tem o cache) <- internet(protocolo http) <- servidor retorna(html, css, javaScritp, imagens..)</li>
+                <li>cliente(Diferentes resoluções, varios dispositivos) -> Design Responsivo ou Responsividade.</li>
+                <li>Cliente(Vários navegadores, edge, crome, safari, firefox...) -> compatibilidade.</li>                
+            </ul>
+        
+        <h3>Quanto aos Navegadores:</h3>
+            <ul>
+                <li>Seguem o padrão  <a href="https://www.w3schools.com" title="Veja tudo sobre HTML" target="_blank">W3Schools</a></li>
+                <li>Responsaveis por interpretar o HTML, CSS, javaScritp</li>
+                <li>São Gratuítos</li>                               
+            </ul>
+        
+        <h3>Aplicação Web:</h3>
+                <ul> 
+                    <li>Nâo precisa ser instalado, basta digitar o endereço nos navegadores.</li>
+                    <li>São basicamente feitos em  HTML, CSS, javaScritp</li>                                                   
+                </ul>
+         
+         <h3>Aplicativo Web:</h3>
+                <ul> 
+                    <li>São instaláveis, precisam de uma linguagem de programação, ex.: java,c#,go e etc... </li>
+                    <li>Feitos para rodar em sistemas operacionais especificos, ex.:Android, Apple e etc...</li>                                                   
+                </ul>
+        
+        <h3>Dos Servidores:</h3>
+        <ul> 
+            <li>Rede local -> cliente e servidor tudo em um local só.</li>
+            <li>Tipos de servidores:  Arquivos, Segurança(Firewwall), Streaming, E-mail, Web, Banco de dados...
+                <ol>
+                    <li>servidor proxy -> exemplo: servidor que controla acessos, geralmente é um servidor local.</li>
+                    <li>servidor firewal -> um sistema que bloqueia acessos com regras especificas.</li>
+                    <li>servidor web -> que tem um serviço tipo apache.</li>
+                    <li>servidor proxy -> servidor email ->  controla os emails.</li>
+                    <li>servidor de dados -> geralmente tem os bancos de dados.</li>
+                    <li>servidor dns -> lista de nomes e ips, traduz o nome www.google.com em 1.1.1.1.</li>
+                </ol>
+            </li>                                                   
+        </ul>
+             
+       <h3>Das linguagens de Programação:</h3>
+          <ul>
+              <li>Server-Side: Que rodam no lado do servidor, ex: c#, java, ruby, php...</li>
+              <li>Client-Side: Que rodam no lado do cliente, ex: html, css, js.  V8-> motor que interpreta o javascript.</li>                          
+          </ul>
+      
+    <hr/>
+    <h2 id="html">3. O QUE É HTML?</h2>
+    <hr/>
+    <small><a href="#inicio" title="Retorna ao Índice">voltar</a></small>
+    <p>
+                    Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. 
+            Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.
+            Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.
+            Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, 
+            era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.
+            Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais. Veremos mais à frente o que significam essas linguagens.
+    </p>
+
+    <hr/>
+    <h2 id="comandos-basicos">4. COMANDOS BÁSICOS HTML</h2>
+    <hr/>
+    <small><a href="#inicio" title="Retorna ao Índice">voltar</a></small>
+    <p>
+        <h3>Segue abaixo lista de comandos básicos usados no html para criação desse site:</h3>
+        <lu>
+            <li>< head > – local para declarar todas informações, como título e metadados da sua página </li>
+            <li>< title > – define o título;</li>
+            <li>< body > – local para declarar todos os elementos que irão compor o corpo da página;</li>
+            <li>< h1 >,< h2 >,< h3 >,< h4 >,< h5 > e < h6 > – Tags para definir um título e subtítulos, variando de 1 a 6, 
+                sendo h1 o título mais importante e h6 o de menor importância;</li>
+            <li>< p > – Tag para definir um parágrafo;</li>
+            <li>< header > – define um cabeçalho;</li>
+            <li>< ol > – define uma lista ordenada;</li>
+            <li>< ul > – define uma lista não ordenada;</li>
+            <li>< li > – define o item de uma lista;</li>
+            <li>< input > – define os campos do formulário;</li>
+            <li>< img > – permite inserir uma imagem no seu documento.</li>
+            <li>< a > – Tag de link, junto ao atributo href=”” é responsável pela principal característica da web;</li>
+        </lu>
+
+        <p>Está listado acima apenas alguns das muitas tags HTML, para ver com mais detalhes clique aqui:<a href="https://www.w3schools.com" title="Veja tudo sobre HTML" target="_blank">W3Schools</a></p>
+
+    </p>    
+    <hr/>
+    <h3><i><a href="sobre.html" title="Clique para maiores informações sobre o Desenvolvedor">sobre o Desenvolvedor</a> |
+         <a href="https://www.w3schools.com" title="Veja tudo sobre HTML" target="_blank">W3Schools</a> |</i></h3>
+    <hr/>
+    
+    
+</body>
+</html>
